@@ -22,7 +22,9 @@ function nowServing(katzDeli) {
 var line = [];
 
 function currentLine(katzDeli) {
-  for (let i = 0; i < katzDeli.length; i++)
+  for (let i = 0; i < katzDeli.length; i++) {
+    line.push
+  }
 if (katzDeli.length === 0) {
   return "The line is currently empty.";
 }
